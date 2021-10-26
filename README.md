@@ -1,2 +1,2 @@
 # ccr-codegolf-public
-Public codegolf verification
+Public codegolf verification and test history

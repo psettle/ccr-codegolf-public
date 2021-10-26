@@ -1,0 +1,62 @@
+{
+  "config": {
+    "any_order": "true"
+  },
+  "tests": [
+    {
+      "name": "small_prime",
+      "input": "2",
+      "output": [
+        "2"
+      ]
+    },
+    {
+      "name": "heavy_multiplicity",
+      "input": "1024",
+      "output": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "name": "small_highly_composite",
+      "input": "60",
+      "output": [
+        "2",
+        "2",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "name": "large_highly_composite",
+      "input": "164894730",
+      "output": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "17",
+        "17",
+        "19"
+      ]
+    },
+    {
+      "name": "huge_prime",
+      "input": "2147483647",
+      "output": [
+        "2147483647"
+      ]
+    }
+  ]
+}
